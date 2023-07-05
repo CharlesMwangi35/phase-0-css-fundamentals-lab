@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+nav>a:link {
+  padding: 10px;
+  background-color: grey;
+}
+section{
+  display: grid;
+  place-items: center;
+  }
+figcaption {
+  font-size: smaller;
+}
+section>p {
+width: 800px
+}
+#details{
+  padding-right: 25px;
+  background-color: red;
+  text-align: center;
+}
+html body section#details{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
